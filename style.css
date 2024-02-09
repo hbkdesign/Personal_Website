@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:ital,wght@0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+
+
+
+
+body {
+  height: 2000px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-link {
+  font-family: 'Zen Dots', sans-serif;
+  font-family: 5px;
+}
+
+.logo{
+  font-family: 'Zen Dots', sans-serif;
+
+}
+.hero_image {
+  width: 800px;
+
+}
+
+.hero_container {
+  margin-top: 90px;
+  
+}
+
+.hed1 {
+  color: white;
+  font-family: 'Rubik Glitch', system-ui;
+  font-size: 80px;
+}
+
+.hed4 {
+  font-family: 'Zen Dots', sans-serif;
+  font-size: 15px;
+ 
+  
+}
+
+@media(max-width: 991px) {
+  .sidebar{
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+}
+
+.spline3d {
+  
+  height:500px;
+  
+} 
+
+.dna {
+  width: 600px;
+  height: 400px;
+  }
+
+.human {
+  flex-direction: column-reverse;
+}
+
+.hed_aboutme{
+  font-family: 'Rubik Glitch', system-ui;
+
+}
+
+.text_aboutme {
+  font-family: 'Zen Dots', sans-serif;
+  font-size: 18px;
+}
+
+/* progress bar */
+
+.skill_section{
+  height: 300px;
+}
+
+.carousel_slide {
+  margin-left: 80px;
+}
+
+/* parallax effect 1  */
+.parallax-section {
+  /* Adjust the height as needed */
+  height: 300px; 
+  background-image: url('/parallax_1.jpeg');
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-title {
+  font-family: 'Zen Dots', sans-serif;
+
+}
+
+.card-text {
+  font-family: 'Zen Dots', sans-serif;
+  font-family: 15px;
+
+}
+
+
+
+
+
+
+/* footer style */
+
+footer{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,119,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
